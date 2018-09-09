@@ -15,5 +15,6 @@ function logShout(string){
 function sayHiToGrandma (sting){
   if (sting == sting.toLowerCase()){
     return "I can\'t hear you!"
+  
   }
 }
