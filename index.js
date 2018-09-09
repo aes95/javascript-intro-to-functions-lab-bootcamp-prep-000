@@ -12,4 +12,8 @@ function logWhisper(string){
 function logShout(string){
   console.log(shout(string))
 }
-function sayHiToGrandma
+function sayHiToGrandma (sting){
+  if (sting == sting.toLowerCase()){
+    return "I can\'t hear you!"
+  }
+}
