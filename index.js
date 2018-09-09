@@ -12,12 +12,12 @@ function logWhisper(string){
 function logShout(string){
   console.log(shout(string))
 }
-function sayHiToGrandma (sting){
-  if (sting == sting.toLowerCase()){
+function sayHiToGrandma (string){
+  if (sting == string.toLowerCase()){
     return "I can\'t hear you!"
-  } else if (sting == string.toUpperCase) {
+  } else if (string == string.toUpperCase) {
     return "YES INDEED!"
-  } else if (sting == "I love you, Grandma.") {
+  } else if (string == "I love you, Grandma.") {
     return "I love you, too."
   }
 }
